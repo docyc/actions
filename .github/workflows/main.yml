@@ -1,0 +1,11 @@
+name: hellp world
+on: push
+jobs:
+  my_one_job:
+    name: My One Job
+    runs-on: ubuntu-latest
+    steps:
+    - name: git version
+      run: |
+        apt install -y git
+        git version
