@@ -6,6 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: git version
-      run: |
-        apt-get install git
-        git version
+      run: git version
